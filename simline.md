@@ -24,3 +24,7 @@ the line flags are a single byte layed out like: `0000DCBA`
 |`C`|left extension|if `1`, this line has a left extension.
 |`D`|right extension|if `1`, this line has a right extension.
 |`0000`|unused|ignored bits
+
+---
+
+*this mod spec is version 0*
