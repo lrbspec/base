@@ -10,10 +10,10 @@ where each simline is written:
 |-|-|-
 |ID|u32|the line's ID
 |flags|u8|see [Line Flags](#line-flags)
-|x1|f64|the x position of the start point
-|y1|f64|the y position of the start point
-|x2|f64|the x position of the end point
-|y2|f64|the y position of the end point
+|x1|f64|the x position of the 1st point
+|y1|f64|the y position of the 1st point
+|x2|f64|the x position of the 2nd point
+|y2|f64|the y position of the 2nd point
 
 ## Line Flags
 the line flags are a single byte layed out like: `0000DCBA`
