@@ -1,5 +1,7 @@
 # `base.simline`
 contains the simulation lines of the track.
+
+the data section is layed out like this:
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written
