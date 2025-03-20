@@ -7,5 +7,7 @@ name|type|description|
 -|-|-|
 X|`f64`|the X coordinate of the start offset|
 Y|`f64`|the Y coordinate of the start offset (remember +Y is down)|
+
+the omission of both this mod and `base.startline` implies a start offset of (0, 0)
 ***
 *this spec is version 0*
