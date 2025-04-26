@@ -1,9 +1,17 @@
 # `base.startline`
-this mod contains a single u32 which is the line ID of the "start line". the start offset is set to the first point of this line, minus 25 on the Y axis (thats up 25 units).
+## description
+this mod contains the line ID of the "start line". the start offset is set to the first point of this line, minus 25 on the Y axis (thats up 25 units).
 
-this mod's data section is layed out like this:
+if this mod and `base.startoffset` are both present than this mod should take priority when loading, but they generally should be exclusive such that a track is written with at most one of the two.
+
+## data section
 name|type|description|
 -|-|-|
 line ID|`u32`|the ID of the start line|
-***
-*this spec is version 0*
+
+## meta
+```
+name = base.startline
+version = 0
+flags = 00010010 // data | physics
+```

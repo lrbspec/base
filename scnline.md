@@ -1,7 +1,8 @@
 # `base.scnline`
+## description
 contains the scenery lines of the track.
 
-this mod's data section is layed out like:
+## data section
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written
@@ -16,6 +17,9 @@ where each scnline is written:
 |x2|f64|the x position of the 2nd point
 |y2|f64|the y position of the 2nd point
 
----
-
-*this mod spec is version 0*
+## meta
+```
+name = base.scnline
+version = 0
+flags = 00011000 // data | scenery
+```
