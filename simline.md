@@ -1,7 +1,8 @@
 # `base.simline`
+## description
 contains the simulation lines of the track.
 
-the data section is layed out like this:
+## data section
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written
@@ -27,6 +28,9 @@ the line flags are a single byte layed out like: `0000DCBA`
 |`D`|right extension|if `1`, this line has a right extension.
 |`0000`|unused|ignored bits
 
----
-
-*this mod spec is version 0*
+## meta
+```
+name = base.simline
+version = 0
+flags = 00011010 // data | scenery | physics
+```
