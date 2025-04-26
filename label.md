@@ -1,10 +1,15 @@
 # `base.label`
-contains a single [string](https://github.com/lrbspec/conventions/blob/main/strings.md#length-specified-strings) in it's data section for the track's name / title:
+## description
+contains the track's title.
+
+## data section
 |name|type|description
 |-|-|-
-|label|string with u16 length and utf8 encoding|the track's label
+|label|[string](https://github.com/lrbspec/conventions/blob/main/strings.md#length-specified-strings) with u16 length and utf8 encoding|the track's label
 
-it should be written as optional
-
----
-*this spec is version 0*
+## meta
+```
+name = base.label
+version = 0
+flags = 00010000 // data
+```
