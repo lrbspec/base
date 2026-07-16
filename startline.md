@@ -14,5 +14,5 @@ line ID|`u32`|the ID of the start line|
 name = base.startline
 version = 0
 flags = 00010010 // data | physics
-dependencies = base.simline or base.scnline (the line ID may refer to a scenery or simulation line. it isnt technically required for both mods to be present but if they are then order this one after both of them to be safe)
+dependencies = base.simline version 0 or base.scnline version 0 (the line ID may refer to a scenery or simulation line. it isnt technically required for both mods to be present but if they are then order this one after both of them to be safe)
 ```
