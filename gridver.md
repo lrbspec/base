@@ -17,6 +17,8 @@ name|value|
 
 all other values are undefined and should be rejected when loading.
 
+omission of the mod indicates a `6.2` grid algorithm track.
+
 
 ## meta
 ```

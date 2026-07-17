@@ -1,8 +1,8 @@
 # `base.startline`
 ## description
-this mod contains the line ID of the "start line". the start offset is set to the first point of this line, minus 25 on the Y axis (thats up 25 units).
+this mod contains the line ID of the "start line". the start offset is set to the first point of this line, minus 25 on the Y axis (thats upwards 25 units).
 
-if this mod and `base.startoffset` are both present than this mod should take priority when loading, but they generally should be exclusive such that a track is written with at most one of the two.
+if this mod and `base.startoffset` are both present, then this mod should take priority when loading, but they generally should be exclusive such that a track is written with at most one of the two.
 
 ## data layout
 name|type|description|
