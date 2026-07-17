@@ -2,7 +2,7 @@
 ## description
 contains the simulation lines of the track.
 
-## data section
+## data layout
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written

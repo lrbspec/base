@@ -2,8 +2,8 @@
 ## description
 indicates the grid algorithm version of the track, out of the three values that existed in the flash version.
 
-## data section
-the data section is layed out like this:
+## data layout
+the mod's data is layed out like this:
 name|type|description|
 -|-|-|
 grid version|`u8`|the grid algorithm version used by the track, see below for values|

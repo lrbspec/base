@@ -4,7 +4,7 @@ this mod contains the line ID of the "start line". the start offset is set to th
 
 if this mod and `base.startoffset` are both present than this mod should take priority when loading, but they generally should be exclusive such that a track is written with at most one of the two.
 
-## data section
+## data layout
 name|type|description|
 -|-|-|
 line ID|`u32`|the ID of the start line|
