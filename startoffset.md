@@ -16,5 +16,5 @@ Y|`f64`|the Y coordinate of the start offset (remember +Y is down)|
 ```
 name = base.startoffset
 version = 1
-flags = 00010010
+flags = 00010010 // data | physics
 ```
