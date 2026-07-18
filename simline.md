@@ -2,7 +2,7 @@
 ## description
 contains the simulation lines of the track.
 
-## data section
+## data layout
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written
@@ -23,7 +23,7 @@ the line flags are a single byte layed out like: `0000DCBA`
 |symbol|name|description
 |-|-|-
 |`A`|red|if `1`, this is an acceleration line.
-|`B`|inverted| if `1`, this line is inverted.
+|`B`|inverted| if `1`, this line is inverted, which causes the acceleration of red lines to point in the opposite direction.
 |`C`|left extension|if `1`, this line has a left extension.
 |`D`|right extension|if `1`, this line has a right extension.
 |`0000`|unused|ignored bits
@@ -31,6 +31,7 @@ the line flags are a single byte layed out like: `0000DCBA`
 ## meta
 ```
 name = base.simline
-version = 0
+version = 1
 flags = 00011010 // data | scenery | physics
+optional dependencies = base.gridver version 1 (per the gridver spec, it can be omitted and this means the track uses a 6.2 grid)
 ```

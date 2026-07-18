@@ -2,7 +2,7 @@
 ## description
 contains the track's title.
 
-## data section
+## data layout
 |name|type|description
 |-|-|-
 |label|[string](https://github.com/lrbspec/conventions/blob/main/strings.md#length-specified-strings) with u16 length and utf8 encoding|the track's label
@@ -10,6 +10,6 @@ contains the track's title.
 ## meta
 ```
 name = base.label
-version = 0
+version = 1
 flags = 00010000 // data
 ```

@@ -2,7 +2,7 @@
 ## description
 contains the scenery lines of the track.
 
-## data section
+## data layout
 |name|type|description
 |-|-|-
 |count|u32|the amount of lines written
@@ -20,6 +20,6 @@ where each scnline is written:
 ## meta
 ```
 name = base.scnline
-version = 0
+version = 1
 flags = 00011000 // data | scenery
 ```
