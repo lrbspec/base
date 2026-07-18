@@ -15,6 +15,6 @@ Y|`f64`|the Y coordinate of the start offset (remember +Y is down)|
 ## meta
 ```
 name = base.startoffset
-version = 0
+version = 1
 flags = 00010010
 ```

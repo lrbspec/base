@@ -20,6 +20,6 @@ where each scnline is written:
 ## meta
 ```
 name = base.scnline
-version = 0
+version = 1
 flags = 00011000 // data | scenery
 ```

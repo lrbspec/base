@@ -31,7 +31,7 @@ the line flags are a single byte layed out like: `0000DCBA`
 ## meta
 ```
 name = base.simline
-version = 0
+version = 1
 flags = 00011010 // data | scenery | physics
-optional dependencies = base.gridver version 0 (per the gridver spec, it can be omitted and this means the track uses a 6.2 grid)
+optional dependencies = base.gridver version 1 (per the gridver spec, it can be omitted and this means the track uses a 6.2 grid)
 ```

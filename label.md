@@ -10,6 +10,6 @@ contains the track's title.
 ## meta
 ```
 name = base.label
-version = 0
+version = 1
 flags = 00010000 // data
 ```
